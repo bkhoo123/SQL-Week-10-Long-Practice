@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS customers;
 
 CREATE TABLE customers (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT(40) NOT NULL,
+    name VARCHAR NOT NULL,
     phone TEXT UNIQUE,
     email TEXT UNIQUE,
     points INTEGER,
